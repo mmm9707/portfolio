@@ -16,7 +16,7 @@ import { ResumeComponent } from './resume/resume.component';
   imports: [
     BrowserModule,
     RouterModule.forRoot([
-      { path: '', component: HomeComponent, pathMatch: 'full'}
+      { path: '', component: HomeComponent, pathMatch: 'full'},
       { path: 'resume', component: ResumeComponent,}
     ])
   ],
