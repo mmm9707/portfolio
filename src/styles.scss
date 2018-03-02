@@ -2,6 +2,10 @@
 @import '~materialize-css/sass/components/_color.scss';
 $roboto-font-path: '~materialize-css/dist/fonts/roboto/';
 
-$primary-color: darken(blue, 30) !default;
+$primary-color: darken(blue, 20) !default;
 
 @import '~materialize-css/sass/materialize.scss';
+
+.carousel .carousel-item {
+  width:300px ;
+}

@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs/Observable';
 
-
+declare var $ : any;
 
 @Component({
   selector: 'home',
@@ -12,7 +12,7 @@ export class HomeComponent implements OnInit {
 
   ngOnInit() {
     $('.carousel').carousel({
-      dist: -50;
+      dist: -50,
     });
   }
 }
