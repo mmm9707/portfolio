@@ -8,7 +8,7 @@ declare var $ : any;
   templateUrl: './home.component.html'
 })
 export class HomeComponent implements OnInit {
-  
+
   ngOnInit() {
     $('.carousel').carousel({
       dist: -50,

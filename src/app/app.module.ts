@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { ResumeComponent } from './resume/resume.component';
 import { AboutMeComponent } from './about-me/about-me.component';
+import { ProjectComponent } from './project/project.component';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { AboutMeComponent } from './about-me/about-me.component';
     AppComponent,
     HomeComponent,
     ResumeComponent,
-    AboutMeComponent
+    AboutMeComponent,
+    ProjectComponent
   ],
   imports: [
     BrowserModule,
@@ -22,7 +24,8 @@ import { AboutMeComponent } from './about-me/about-me.component';
     RouterModule.forRoot([
       { path: '', component: HomeComponent, pathMatch: 'full'},
       { path: 'resume', component: ResumeComponent,},
-      { path: 'about-me', component: AboutMeComponent,}
+      { path: 'about-me', component: AboutMeComponent,},
+      { path: 'project', component: ProjectComponent,}
     ])
   ],
   providers: [],
