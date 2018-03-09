@@ -9,3 +9,11 @@ $primary-color: darken(grey, 20) !default;
 .carousel .carousel-item {
   width:300px ;
 }
+
+.parallax-container {
+  height: 924px;
+}
+
+.highlight {
+  background-color: lighten(grey, 2);
+}

@@ -9,6 +9,11 @@ declare var $ : any;
 })
 export class HomeComponent implements OnInit {
 
+
+  onMouseEnter(){
+     console.log('working');
+  }
+  
   ngOnInit() {
     $('.carousel').carousel({
       dist: -50,
