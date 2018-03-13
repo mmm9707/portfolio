@@ -13,10 +13,17 @@ export class HomeComponent implements OnInit {
   onMouseEnter(){
      console.log('working');
   }
-  
+
   ngOnInit() {
     $('.carousel').carousel({
       dist: -50,
     });
+    $('.target').pushpin({
+   top: 0,
+   bottom: 1000,
+   offset: 0
+ });
+});
+     
   }
 }
