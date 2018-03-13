@@ -25,7 +25,8 @@ $primary-color: darken(grey, 20) !default;
 }
 
 #navbar{
-  opacity: .5px;
+  background-color: transparent;
+  box-shadow: none;
 }
 
 #welcome {
